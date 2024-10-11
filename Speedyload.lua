@@ -44,7 +44,7 @@ local function SpeedyLoad_Unregister(event, ...)
             UnregisterEvent(frame, event)
             events[event][frame] = 1
         end
-    }
+    end
 end
 
 local function EventHandler(self, event, ...)
